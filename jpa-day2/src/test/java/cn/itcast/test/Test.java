@@ -142,6 +142,7 @@ public class Test {
 	// 测试
 	// 测试1
 	// 测试2
+	// 测试4
     @org.junit.Test
     public  void testJpl7() {
         List<Customer> customers = customerDao.findByCustNameLikeAndCustAddress("%bill%", "SH");
@@ -150,5 +151,7 @@ public class Test {
             System.out.println(customer);
         }
     }
+	
+	// 你好，我要测试冲突
 
 }
